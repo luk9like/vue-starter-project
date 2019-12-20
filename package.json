@@ -1,0 +1,31 @@
+{
+  "name": "<new-project>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lukas Müller",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "rm -rf dist && parcel serve --open --out-dir dist src/index.html"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@vue/component-compiler-utils": "^3.1.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "sass": "^1.23.7",
+    "typescript": "^3.7.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "scss": "^0.2.4",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-property-decorator": "^8.3.0",
+    "vuex": "^3.1.2"
+  }
+}
